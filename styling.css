@@ -12,9 +12,13 @@ p {
  }/*Setting the appearance of the largest heading (<h1>), giving it a border, a border style and a background colour.*/
 
  strong {
- 	padding-left: 45%; 
+ 	padding-left: 46%; 
  	color: white;
  }/*Setting the padding and text colour for all bold text*/
+
+ a {
+	color:white;
+ }/*Changing the font colour of links to white*/
 
  section {
  	padding-top: 5px
@@ -50,10 +54,16 @@ are one pixel in height*/
 	padding-right: 100px;
 }/*This id is used  to center the title text in the same way across all webpages*/
 
+#copyright {
+margin-top: 232px;
+margin-left:50%;
+color:white;
+}/*This ID centers the copyright symbol, using padding to place it in the centre at the bottom. It also turns the colour of the symbol to white*/
+
 a:hover {
 	color: grey;/*if and when the user hovers over the a tags, (the links on the page) the colour will turn grey*/
 }
 
 a:visited {
-	color:grey;/*After the user clicks the link on the <a> tag, the colour of the text will change to grey*/
+	color:#ACACAC;/*After the user clicks the link on the <a> tag, the colour of the text will change to a very light grey*/
 }
