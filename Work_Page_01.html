@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--sets the document type as 'html', essentially telling the webpage that the following code is in HTML-->
+<!DOCTYPE html><!--sets the document type as 'html', telling the webpage that the following code is in HTML-->
 	
 	<html>
 	
@@ -9,22 +9,21 @@
 		</head>
 	
 		<body style="background-color: #505160"><!--Overriding the default background colour to diferentiate the webpage-->
-			<section id="Title_section"><!--Using the styling from the css file-->
-				<h1 style="color:black;border:medium;border-style:solid;background-color:white">Secret Escapes</h1>
+			<section id="Title_Section"><!--Using the styling from the css file-->
+				<h1 style="color:black;border:medium;border-style:solid;background-color:white">Secret Escapes</h1><!--Adding styling to this element in particular, as it is the heading for the page. This gives the impression that the text has a box around it. The box is given a solid border-->
 		 	</section>
 				<div class= "container">
-					<div class= "row"><!--Here, I am using the bootstrap fraework to ensure that the spacing between the text and the image is changed dynamically, according to the size of the browser-->
+					<div class= "row"><!--Here, I am using the bootstrap framework to ensure that the spacing between the text and the image is changed dynamically, according to the size of the browser-->
 					<div class="col-sm-6">
-						<a><img src="Secret Escapes ver 4.png" alt="Image of me" height="400x" width="560px" style="padding-bottom: 10px; border-radius:25px"></a>
+						<a><img src="Secret Escapes ver 4.png" alt="Image of me" height="400x" width="560px" style="margin-top:10px; border-radius:25px"></a><!--Margin altered to separate image further from the title section, border radius added to create 'rounded' look to image-->
 					</div>
-					<div class="col-sm-6" style="padding-top: 100px">
+					<div class="col-sm-6" style="padding-top: 100px; padding-left: 100px"><!--Padding added to separate text further from image, and further from title section-->
 							<p style="text-align: center">
-								So, a little bit about me. I'm currently on the Step Forward IT Salesforce Apprentice pathway. <br>
-								What this means is that I work at Secret Escapes, doing the day-to-day administrative tasks on the Secret Escapes salesforce org. <br>
-								If you would like to find any else out about me, please click the 'About' link below <br>
+								So, a little bit about me. I'm currently on the Step Forward IT Salesforce Apprentice pathway.<br><!--Here the break tag is used to tell the HTML document to move on to the next line-->
+								What this means is that I work at Secret Escapes, doing the day-to-day administrative tasks on the Secret Escapes salesforce org.<br>
+								If you would like to find any else out about me, please click the 'About' link below<br>
 							</p>
-						</div>
+					</div>
 				</div>
-			</div>
 		</body>	
 	</html>
