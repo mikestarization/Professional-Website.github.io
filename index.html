@@ -13,7 +13,7 @@
 				<h1 style="font-style: italic">Michael Thomas</h1><!--Making the title display in italics-->
 		 	</section>
 
-		 	<section class = "Black_Bars"/><!--This section is self closing, and is used to visually separate each section, through the use of the 'Black_Bars' class-->
+		 	<section class = "Black_Bars" /><!--This section is self closing, and is used to visually separate each section, through the use of the 'Black_Bars' class-->
 
 		 	<section id="About_Section">
 				<h2 style="font-family: monospace;text-align:center;color: white;">About Me</h2><!--The styling has been applied directly on the elemen here, as the h2 tag is not used on any other pages-->
@@ -36,7 +36,7 @@
 				</div>
 			</section>
 
-			<section class = "Black_Bars"/><!--This section is self closing, and is used to visually separate each section, through the use of the 'Black_Bars' class-->
+			<section class="Black_Bars"/><!--This section is self closing, and is used to visually separate each section, through the use of the 'Black_Bars' class-->
 		
 			<section id="Work_Section">
 				<h3 style="font-family: Arial; font-size: 28px;text-align: center;color: white;">Previous work</h3>	<!--Using inline styling, as this is the only instane of h3 accross all webpages-->
@@ -55,7 +55,7 @@
 			<section id="Contact_Section">
 				<h4 style="font-family: Trebuchet; font-size: 22px;text-align: center;color: white;	">Contact Information</h4><!--Adding inline styling, as h4 is only used once-->
 				
-				<strong><!--The <strong> tag is used to bloden the text of the links to social media-->
+				<strong style="content-align:center"><!--The <strong> tag is used to bloden the text of the links to social media-->
 					<i class="fa fa-youtube-square" aria-hidden="true"></i><!--Here, the code is referring to a class on the fontawesome stylesheet, to produce a Youtube icon-->
 					<a href="https://www.youtube.com/user/SecretEscapesUK">Youtube</a>
 					<i class="fa fa-linkedin-square" aria-hidden="true"></i><!--Here, the code is referring to a class on the fontawesome stylesheet, to produce a Linkedin icon-->
@@ -63,9 +63,30 @@
 				</strong>
 				
 			</section>
+
+			<div style="margin-left: 45%; padding-top: 5px">
+				<form>
+  				First name:<br>
+  				<input type="text"><br>
+  				Last name:<br>
+  				<input type="text" name="lastname"><br><br>
+  				<input type="submit" value="Submit">
+				</form> 
+			</div>
 		</body>
 
 		<footer id="copyright">
 			<i class="fa fa-copyright" aria-hidden="true"></i><!--Adding in a copyright symbol-->
 		</footer>
+
+	<!--script src="interactivity.js" type="text/javascript"-->
+	<script>
+		<form action="/action_page.php">
+  		 First name:<br>
+  		<input type="text" value="Mickey"><br>
+  		 Last name:<br>
+  		<input type="text" name="lastname" value="Mouse"><br><br>
+  		<input type="submit" value="Submit">
+		</form> 
+	</script>
 	</html>
