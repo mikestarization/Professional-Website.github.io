@@ -61,28 +61,30 @@
 					<i class="fa fa-linkedin-square" aria-hidden="true"></i><!--Here, the code is referring to a class on the fontawesome stylesheet, to produce a Linkedin icon-->
 					<a href="https://www.linkedin.com/company/secret-escapes">Linkedin</a>
 				</strong>
-			</section>
 
 			<div style="margin-left: 45%; padding-top: 5px"><!--Here, this div is set up to contain the form-->
 				<form method="get"><!--This form was created to send the contents of the form elements to the URL-->
-  				<i>First Name:</i><br><!--This is a tag designed to change the colour of the text, as well as making it's font in italics-->
-  				<input type="text" name="First_Name"><br><!--This is a text form element-->
+  				<i>First Name:</i><br><!--This is a tag designed to change the colour of the text, as well as making it's font in italics. The br tag is used to move the text element to below the text-->
+  				<input type="text" name="First_Name" placeholder="Fill me in!"><br><!--This is a text form element-->
   				<i>Last Name:</i><br>
-  				<input type="text" name="Last_Name"><br>
+  				<input type="text" name="Last_Name" placeholder="Fill me in!"><br>
+				<i>Email Address:</i><br>
+				<input type="text" name="Email_Address" placeholder="Fill me in!"><br>
 				<i>Browser:</i><br>
 				<input list="browsers" name="Browser" placeholder="Fill me in!"><!--This is a list form element, to allow the user to select their browser from a drop-down list-->
-  				<datalist id="browsers"><!--This tag creates a place where the options -->
-    				<option value="Internet Explorer">
+  				<datalist id="browsers"><!--This tag creates a place where the brpwser can be stored-->
+    				<option value="Internet Explorer"><!--The option tag-->
     				<option value="Firefox">
     				<option value="Chrome">
     				<option value="Safari">
     				<option value="Other">
   				</datalist><br>
   				<i>Comment:</i><br>
-  				<textarea name="Comment_Area" rows="5" cols="22"></textarea><br><br>
-  				<input type="submit" value="Submit" style="margin-left:50px">
+  				<textarea name="Comment_Area" rows="5" cols="22" placeholder="Fill me in!"></textarea><br><br><!--This text area was created to contain the comments from the user-->
+  				<input type="submit" value="Submit" style="margin-left:50px"><!--This form element creates a submit button, with styling added to center it-->
 				</form> 
 			</div>
+			</section>
 		</body>
 
 		<footer id="copyright">

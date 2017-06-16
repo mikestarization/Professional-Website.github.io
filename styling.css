@@ -59,7 +59,7 @@ are one pixel in height*/
 }/*This id is used  to center the title text in the same way across all webpages*/
 
 #copyright {
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left:50%;
 	color:white;
 }/*This ID centers the copyright symbol, using padding to place it in the centre at the bottom. It also turns the colour of the symbol to white*/
