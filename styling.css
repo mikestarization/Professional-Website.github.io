@@ -39,6 +39,10 @@ ol li
     display: block;
 }/*Setting the appearance of the list on the About page. It displays the list as a block, and makes each item 'float' according to how much space is left*/
 
+i {
+	color:white;
+}
+
 .Black_Bars{
 	background-color: black; 
 	width: 100%; 
