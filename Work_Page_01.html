@@ -15,7 +15,7 @@
 				<div class= "container">
 					<div class= "row"><!--Here, I am using the bootstrap framework to ensure that the spacing between the text and the image is changed dynamically, according to the size of the browser-->
 					<div class="col-sm-6">
-						<a><img src="Secret Escapes ver 4.png" alt="Image of me" height="400x" width="560px" style="margin-top:10px; border-radius:25px"></a><!--Margin altered to separate image further from the title section, border radius added to create 'rounded' look to image-->
+						<a><img src="Secret Escapes ver 4.png" id="work_image" alt="Image of my workplace" height="400x" width="560px" onmouseover="imgHoverOver(0)" onmouseout="imgHoverOver(1)" style="margin-top:10px; border-radius:25px"></a><!--Margin altered to separate image further from the title section, border radius added to create 'rounded' look to image. The onmouseover and onmouseout function will be explained in the JavaScript file.-->
 					</div>
 					<div class="col-sm-6" style="padding-top: 100px; padding-left: 100px"><!--Padding added to separate text further from image, and further from title section-->
 							<p style="text-align: center">
@@ -27,4 +27,5 @@
 				<a href="index" style="color:white">Homepage</a>
 			</div>
 		</body>	
+		<script src="interactivity.js" type="text/javascript"></script><!--Linking this page with the interactivity JavaScript file, to allow for validation on the form-->
 	</html>

@@ -55,3 +55,11 @@ function validateInfo(){//This function validates the form created in the HTML i
 			return false;
 	}
 }
+
+function imgHoverOver(thisImage){
+	if(thisImage==0) {
+		document.getElementById('work_image').src="Secret Escapes.png";
+	} else if(thisImage==1) {
+		document.getElementById('work_image').src="Secret Escapes ver 4.png";
+	}
+}
