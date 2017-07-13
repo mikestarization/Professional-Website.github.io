@@ -57,9 +57,10 @@ function validateInfo(){//This function validates the form created in the HTML i
 }
 
 function imgHoverOver(thisImage){
-	if(thisImage==0) {
+	if(thisImage==0) {//This if statement changes the image if the user hovers their mouse over the reception image to the unedited version
+		//This is based on a parameter passed to the function from the HTML code, and the id of the image tag
 		document.getElementById('work_image').src="Secret Escapes.png";
-	} else if(thisImage==1) {
+	} else if(thisImage==1) {//This if statement reverts the changed image if the user's cursor moves from over the image to out of the image, by also using parameters and the id of the image tag
 		document.getElementById('work_image').src="Secret Escapes ver 4.png";
 	}
 }
