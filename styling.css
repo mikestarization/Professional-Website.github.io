@@ -41,7 +41,7 @@ ol li
 
 i {
 	color:white;
-}
+}/*This makes the icons from the FontAwesome stylesheet white, to match the background colour*/
 
 .Black_Bars{
 	background-color: black; 
